@@ -1,0 +1,13 @@
+C:\development\QuatreFrere\DiscoverMYMedia (Cordova)\platforms\windows8\bin\Debug\resources.pri
+C:\development\QuatreFrere\DiscoverMYMedia (Cordova)\platforms\windows8\bin\Debug\AppxManifest.xml
+C:\development\QuatreFrere\DiscoverMYMedia (Cordova)\platforms\windows8\bld\Debug\priconfig.xml.intermediate
+C:\development\QuatreFrere\DiscoverMYMedia (Cordova)\platforms\windows8\bld\Debug\layout.resfiles.intermediate
+C:\development\QuatreFrere\DiscoverMYMedia (Cordova)\platforms\windows8\bld\Debug\resources.resfiles.intermediate
+C:\development\QuatreFrere\DiscoverMYMedia (Cordova)\platforms\windows8\bld\Debug\pri.resfiles.intermediate
+C:\development\QuatreFrere\DiscoverMYMedia (Cordova)\platforms\windows8\bld\Debug\priconfig.xml
+C:\development\QuatreFrere\DiscoverMYMedia (Cordova)\platforms\windows8\bld\Debug\layout.resfiles
+C:\development\QuatreFrere\DiscoverMYMedia (Cordova)\platforms\windows8\bld\Debug\resources.resfiles
+C:\development\QuatreFrere\DiscoverMYMedia (Cordova)\platforms\windows8\bld\Debug\pri.resfiles
+C:\development\QuatreFrere\DiscoverMYMedia (Cordova)\platforms\windows8\bld\Debug\LanguageQualifiers.txt
+C:\development\QuatreFrere\DiscoverMYMedia (Cordova)\platforms\windows8\bld\Debug\ProjectArchitectures.txt
+C:\development\QuatreFrere\DiscoverMYMedia (Cordova)\platforms\windows8\bin\Debug\CordovaApp.build.appxrecipe

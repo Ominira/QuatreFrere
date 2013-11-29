@@ -1,0 +1,1 @@
+C:\development\QuatreFrere\DiscoverMYMedia (Cordova)\platforms\windows8\CordovaApp.jsproj;neutral

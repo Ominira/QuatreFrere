@@ -1,0 +1,13 @@
+c:\users\m.taiwo\documents\visual studio 2012\Projects\DiscoverMYMedia\DiscoverMYMedia\bin\Debug\resources.pri
+c:\users\m.taiwo\documents\visual studio 2012\Projects\DiscoverMYMedia\DiscoverMYMedia\bin\Debug\AppxManifest.xml
+c:\users\m.taiwo\documents\visual studio 2012\Projects\DiscoverMYMedia\DiscoverMYMedia\bin\Debug\DiscoverMYMedia.build.appxrecipe
+c:\users\m.taiwo\documents\visual studio 2012\Projects\DiscoverMYMedia\DiscoverMYMedia\bld\Debug\priconfig.xml.intermediate
+c:\users\m.taiwo\documents\visual studio 2012\Projects\DiscoverMYMedia\DiscoverMYMedia\bld\Debug\layout.resfiles.intermediate
+c:\users\m.taiwo\documents\visual studio 2012\Projects\DiscoverMYMedia\DiscoverMYMedia\bld\Debug\resources.resfiles.intermediate
+c:\users\m.taiwo\documents\visual studio 2012\Projects\DiscoverMYMedia\DiscoverMYMedia\bld\Debug\pri.resfiles.intermediate
+c:\users\m.taiwo\documents\visual studio 2012\Projects\DiscoverMYMedia\DiscoverMYMedia\bld\Debug\priconfig.xml
+c:\users\m.taiwo\documents\visual studio 2012\Projects\DiscoverMYMedia\DiscoverMYMedia\bld\Debug\layout.resfiles
+c:\users\m.taiwo\documents\visual studio 2012\Projects\DiscoverMYMedia\DiscoverMYMedia\bld\Debug\resources.resfiles
+c:\users\m.taiwo\documents\visual studio 2012\Projects\DiscoverMYMedia\DiscoverMYMedia\bld\Debug\pri.resfiles
+c:\users\m.taiwo\documents\visual studio 2012\Projects\DiscoverMYMedia\DiscoverMYMedia\bld\Debug\LanguageQualifiers.txt
+c:\users\m.taiwo\documents\visual studio 2012\Projects\DiscoverMYMedia\DiscoverMYMedia\bld\Debug\ProjectArchitectures.txt

@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-11-29T19:38:58.953</Modified>
+      <Modified>2013-11-30T08:02:17.898</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -36,6 +36,22 @@
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-11-28T14:22:06.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\img\backgrounds\bg-list.png">
+      <PackagePath>www\img\backgrounds\bg-list.png</PackagePath>
+      <Modified>2013-05-31T07:57:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\img\backgrounds\bg.png">
+      <PackagePath>www\img\backgrounds\bg.png</PackagePath>
+      <Modified>2013-08-22T07:59:12.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\img\icons\divider_color%402x.png">
+      <PackagePath>www\img\icons\divider_color%402x.png</PackagePath>
+      <Modified>2013-07-23T03:05:35.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\img\icons\topleft_handle%402x.png">
+      <PackagePath>www\img\icons\topleft_handle%402x.png</PackagePath>
+      <Modified>2013-07-23T03:05:35.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\es5-shim\tests\lib\jasmine_favicon.png">
       <PackagePath>www\bower_components\es5-shim\tests\lib\jasmine_favicon.png</PackagePath>
@@ -70,7 +86,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\views\main.html">
       <PackagePath>www\views\main.html</PackagePath>
-      <Modified>2013-11-23T18:37:17.000</Modified>
+      <Modified>2013-11-30T06:19:56.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\es5-shim\tests\index.html">
       <PackagePath>www\bower_components\es5-shim\tests\index.html</PackagePath>
@@ -82,15 +98,359 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\index.html">
       <PackagePath>www\index.html</PackagePath>
-      <Modified>2013-11-29T19:39:30.072</Modified>
+      <Modified>2013-11-30T07:57:03.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\angular-unstable\angular.min.js.map">
+      <PackagePath>www\bower_components\angular-unstable\angular.min.js.map</PackagePath>
+      <Modified>2013-11-29T19:44:40.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\angular-cookies\angular-cookies.min.js.map">
+      <PackagePath>www\bower_components\angular-cookies\angular-cookies.min.js.map</PackagePath>
+      <Modified>2013-11-29T19:08:20.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\angular-resource\angular-resource.min.js.map">
+      <PackagePath>www\bower_components\angular-resource\angular-resource.min.js.map</PackagePath>
+      <Modified>2013-11-29T19:08:22.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\angular-route\angular-route.min.js.map">
+      <PackagePath>www\bower_components\angular-route\angular-route.min.js.map</PackagePath>
+      <Modified>2013-11-29T19:08:20.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\angular-sanitize\angular-sanitize.min.js.map">
+      <PackagePath>www\bower_components\angular-sanitize\angular-sanitize.min.js.map</PackagePath>
+      <Modified>2013-11-29T19:08:20.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\es5-shim\es5-sham.map">
+      <PackagePath>www\bower_components\es5-shim\es5-sham.map</PackagePath>
+      <Modified>2013-11-29T19:08:20.631</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\es5-shim\es5-shim.map">
+      <PackagePath>www\bower_components\es5-shim\es5-shim.map</PackagePath>
+      <Modified>2013-11-29T19:08:23.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\jquery\jquery.min.map">
+      <PackagePath>www\bower_components\jquery\jquery.min.map</PackagePath>
+      <Modified>2013-11-29T19:08:23.653</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\custom\xmlToJson.js">
+      <PackagePath>www\bower_components\custom\xmlToJson.js</PackagePath>
+      <Modified>2013-11-30T07:53:48.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\lodash\dist\lodash.compat.js">
+      <PackagePath>www\bower_components\lodash\dist\lodash.compat.js</PackagePath>
+      <Modified>2013-11-22T16:03:16.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\lodash\dist\lodash.compat.min.js">
+      <PackagePath>www\bower_components\lodash\dist\lodash.compat.min.js</PackagePath>
+      <Modified>2013-11-22T16:03:16.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\lodash\dist\lodash.js">
+      <PackagePath>www\bower_components\lodash\dist\lodash.js</PackagePath>
+      <Modified>2013-11-22T16:03:16.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\lodash\dist\lodash.min.js">
+      <PackagePath>www\bower_components\lodash\dist\lodash.min.js</PackagePath>
+      <Modified>2013-11-22T16:03:16.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\lodash\dist\lodash.underscore.js">
+      <PackagePath>www\bower_components\lodash\dist\lodash.underscore.js</PackagePath>
+      <Modified>2013-11-22T16:03:16.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\lodash\dist\lodash.underscore.min.js">
+      <PackagePath>www\bower_components\lodash\dist\lodash.underscore.min.js</PackagePath>
+      <Modified>2013-11-22T16:03:16.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\ar-ma.js">
+      <PackagePath>www\bower_components\moment\lang\ar-ma.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\ar.js">
+      <PackagePath>www\bower_components\moment\lang\ar.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\bg.js">
+      <PackagePath>www\bower_components\moment\lang\bg.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\br.js">
+      <PackagePath>www\bower_components\moment\lang\br.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.701</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\bs.js">
+      <PackagePath>www\bower_components\moment\lang\bs.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.703</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\ca.js">
+      <PackagePath>www\bower_components\moment\lang\ca.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\cs.js">
+      <PackagePath>www\bower_components\moment\lang\cs.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.717</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\cv.js">
+      <PackagePath>www\bower_components\moment\lang\cv.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\cy.js">
+      <PackagePath>www\bower_components\moment\lang\cy.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.741</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\da.js">
+      <PackagePath>www\bower_components\moment\lang\da.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\de.js">
+      <PackagePath>www\bower_components\moment\lang\de.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\el.js">
+      <PackagePath>www\bower_components\moment\lang\el.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\en-au.js">
+      <PackagePath>www\bower_components\moment\lang\en-au.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\en-ca.js">
+      <PackagePath>www\bower_components\moment\lang\en-ca.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\en-gb.js">
+      <PackagePath>www\bower_components\moment\lang\en-gb.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\eo.js">
+      <PackagePath>www\bower_components\moment\lang\eo.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\es.js">
+      <PackagePath>www\bower_components\moment\lang\es.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\et.js">
+      <PackagePath>www\bower_components\moment\lang\et.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\eu.js">
+      <PackagePath>www\bower_components\moment\lang\eu.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\fa.js">
+      <PackagePath>www\bower_components\moment\lang\fa.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\fi.js">
+      <PackagePath>www\bower_components\moment\lang\fi.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\fo.js">
+      <PackagePath>www\bower_components\moment\lang\fo.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\fr-ca.js">
+      <PackagePath>www\bower_components\moment\lang\fr-ca.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\fr.js">
+      <PackagePath>www\bower_components\moment\lang\fr.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\gl.js">
+      <PackagePath>www\bower_components\moment\lang\gl.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\he.js">
+      <PackagePath>www\bower_components\moment\lang\he.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\hi.js">
+      <PackagePath>www\bower_components\moment\lang\hi.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\hr.js">
+      <PackagePath>www\bower_components\moment\lang\hr.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\hu.js">
+      <PackagePath>www\bower_components\moment\lang\hu.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\id.js">
+      <PackagePath>www\bower_components\moment\lang\id.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\is.js">
+      <PackagePath>www\bower_components\moment\lang\is.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\it.js">
+      <PackagePath>www\bower_components\moment\lang\it.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\ja.js">
+      <PackagePath>www\bower_components\moment\lang\ja.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.837</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\ka.js">
+      <PackagePath>www\bower_components\moment\lang\ka.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\ko.js">
+      <PackagePath>www\bower_components\moment\lang\ko.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\lt.js">
+      <PackagePath>www\bower_components\moment\lang\lt.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\lv.js">
+      <PackagePath>www\bower_components\moment\lang\lv.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\ml.js">
+      <PackagePath>www\bower_components\moment\lang\ml.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\mr.js">
+      <PackagePath>www\bower_components\moment\lang\mr.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\ms-my.js">
+      <PackagePath>www\bower_components\moment\lang\ms-my.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.877</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\nb.js">
+      <PackagePath>www\bower_components\moment\lang\nb.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\ne.js">
+      <PackagePath>www\bower_components\moment\lang\ne.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\nl.js">
+      <PackagePath>www\bower_components\moment\lang\nl.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\nn.js">
+      <PackagePath>www\bower_components\moment\lang\nn.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\pl.js">
+      <PackagePath>www\bower_components\moment\lang\pl.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\pt-br.js">
+      <PackagePath>www\bower_components\moment\lang\pt-br.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\pt.js">
+      <PackagePath>www\bower_components\moment\lang\pt.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\ro.js">
+      <PackagePath>www\bower_components\moment\lang\ro.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\ru.js">
+      <PackagePath>www\bower_components\moment\lang\ru.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\sk.js">
+      <PackagePath>www\bower_components\moment\lang\sk.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\sl.js">
+      <PackagePath>www\bower_components\moment\lang\sl.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\sq.js">
+      <PackagePath>www\bower_components\moment\lang\sq.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\sv.js">
+      <PackagePath>www\bower_components\moment\lang\sv.js</PackagePath>
+      <Modified>2013-11-22T16:10:41.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\th.js">
+      <PackagePath>www\bower_components\moment\lang\th.js</PackagePath>
+      <Modified>2013-11-22T16:10:42.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\tl-ph.js">
+      <PackagePath>www\bower_components\moment\lang\tl-ph.js</PackagePath>
+      <Modified>2013-11-22T16:10:42.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\tr.js">
+      <PackagePath>www\bower_components\moment\lang\tr.js</PackagePath>
+      <Modified>2013-11-22T16:10:42.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\tzm-la.js">
+      <PackagePath>www\bower_components\moment\lang\tzm-la.js</PackagePath>
+      <Modified>2013-11-22T16:10:42.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\tzm.js">
+      <PackagePath>www\bower_components\moment\lang\tzm.js</PackagePath>
+      <Modified>2013-11-22T16:10:42.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\uk.js">
+      <PackagePath>www\bower_components\moment\lang\uk.js</PackagePath>
+      <Modified>2013-11-22T16:10:42.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\uz.js">
+      <PackagePath>www\bower_components\moment\lang\uz.js</PackagePath>
+      <Modified>2013-11-22T16:10:42.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\vn.js">
+      <PackagePath>www\bower_components\moment\lang\vn.js</PackagePath>
+      <Modified>2013-11-22T16:10:42.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\zh-cn.js">
+      <PackagePath>www\bower_components\moment\lang\zh-cn.js</PackagePath>
+      <Modified>2013-11-22T16:10:42.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\lang\zh-tw.js">
+      <PackagePath>www\bower_components\moment\lang\zh-tw.js</PackagePath>
+      <Modified>2013-11-22T16:10:42.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\min\langs.js">
+      <PackagePath>www\bower_components\moment\min\langs.js</PackagePath>
+      <Modified>2013-11-22T16:10:42.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\min\langs.min.js">
+      <PackagePath>www\bower_components\moment\min\langs.min.js</PackagePath>
+      <Modified>2013-11-22T16:10:42.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\min\moment-with-langs.js">
+      <PackagePath>www\bower_components\moment\min\moment-with-langs.js</PackagePath>
+      <Modified>2013-11-22T16:10:42.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\min\moment-with-langs.min.js">
+      <PackagePath>www\bower_components\moment\min\moment-with-langs.min.js</PackagePath>
+      <Modified>2013-11-22T16:10:42.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\min\moment.min.js">
+      <PackagePath>www\bower_components\moment\min\moment.min.js</PackagePath>
+      <Modified>2013-11-22T16:10:42.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\moment.js">
+      <PackagePath>www\bower_components\moment\moment.js</PackagePath>
+      <Modified>2013-11-22T16:10:42.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\app.js">
       <PackagePath>www\scripts\app.js</PackagePath>
-      <Modified>2013-11-29T19:42:44.411</Modified>
+      <Modified>2013-11-30T08:04:33.431</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\controllers\main.js">
       <PackagePath>www\scripts\controllers\main.js</PackagePath>
       <Modified>2013-11-29T19:05:35.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\modules\AppGRTProvider.js">
+      <PackagePath>www\scripts\modules\AppGRTProvider.js</PackagePath>
+      <Modified>2013-11-30T08:43:57.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\services\DataFactory.js">
+      <PackagePath>www\scripts\services\DataFactory.js</PackagePath>
+      <Modified>2013-11-30T03:38:26.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\angular-cookies\angular-cookies.js">
       <PackagePath>www\bower_components\angular-cookies\angular-cookies.js</PackagePath>
@@ -146,7 +506,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\angular-unstable\angular.min.js">
       <PackagePath>www\bower_components\angular-unstable\angular.min.js</PackagePath>
-      <Modified>2013-11-29T19:10:37.922</Modified>
+      <Modified>2013-11-29T19:44:40.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\angular\angular.js">
       <PackagePath>www\bower_components\angular\angular.js</PackagePath>
@@ -252,21 +612,21 @@
       <PackagePath>www\js\index.js</PackagePath>
       <Modified>2013-11-29T18:42:47.564</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\styles\bootstrap.css">
-      <PackagePath>www\styles\bootstrap.css</PackagePath>
-      <Modified>2013-11-23T18:37:19.000</Modified>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\lodash\.bower.json">
+      <PackagePath>www\bower_components\lodash\.bower.json</PackagePath>
+      <Modified>2013-11-22T16:03:16.970</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\styles\main.css">
-      <PackagePath>www\styles\main.css</PackagePath>
-      <Modified>2013-11-23T18:37:19.000</Modified>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\lodash\bower.json">
+      <PackagePath>www\bower_components\lodash\bower.json</PackagePath>
+      <Modified>2013-11-22T16:03:16.845</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\es5-shim\tests\lib\jasmine.css">
-      <PackagePath>www\bower_components\es5-shim\tests\lib\jasmine.css</PackagePath>
-      <Modified>2013-11-29T19:08:24.866</Modified>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\.bower.json">
+      <PackagePath>www\bower_components\moment\.bower.json</PackagePath>
+      <Modified>2013-11-22T16:10:42.075</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\css\index.css">
-      <PackagePath>www\css\index.css</PackagePath>
-      <Modified>2013-11-29T18:42:47.559</Modified>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\bower.json">
+      <PackagePath>www\bower_components\moment\bower.json</PackagePath>
+      <Modified>2013-11-22T16:10:41.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\angular-cookies\.bower.json">
       <PackagePath>www\bower_components\angular-cookies\.bower.json</PackagePath>
@@ -368,33 +728,29 @@
       <PackagePath>www\bower_components\json3\bower.json</PackagePath>
       <Modified>2013-11-29T19:08:20.109</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\angular-cookies\angular-cookies.min.js.map">
-      <PackagePath>www\bower_components\angular-cookies\angular-cookies.min.js.map</PackagePath>
-      <Modified>2013-11-29T19:08:20.426</Modified>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\lodash\LICENSE.txt">
+      <PackagePath>www\bower_components\lodash\LICENSE.txt</PackagePath>
+      <Modified>2013-11-22T16:03:16.967</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\angular-resource\angular-resource.min.js.map">
-      <PackagePath>www\bower_components\angular-resource\angular-resource.min.js.map</PackagePath>
-      <Modified>2013-11-29T19:08:22.785</Modified>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\LICENSE">
+      <PackagePath>www\bower_components\moment\LICENSE</PackagePath>
+      <Modified>2013-11-22T16:10:42.048</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\angular-route\angular-route.min.js.map">
-      <PackagePath>www\bower_components\angular-route\angular-route.min.js.map</PackagePath>
-      <Modified>2013-11-29T19:08:20.585</Modified>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\es5-shim\CHANGES">
+      <PackagePath>www\bower_components\es5-shim\CHANGES</PackagePath>
+      <Modified>2013-11-29T19:08:20.162</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\angular-sanitize\angular-sanitize.min.js.map">
-      <PackagePath>www\bower_components\angular-sanitize\angular-sanitize.min.js.map</PackagePath>
-      <Modified>2013-11-29T19:08:20.557</Modified>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\es5-shim\LICENSE">
+      <PackagePath>www\bower_components\es5-shim\LICENSE</PackagePath>
+      <Modified>2013-11-29T19:08:23.829</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\es5-shim\es5-sham.map">
-      <PackagePath>www\bower_components\es5-shim\es5-sham.map</PackagePath>
-      <Modified>2013-11-29T19:08:20.631</Modified>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\json3\LICENSE">
+      <PackagePath>www\bower_components\json3\LICENSE</PackagePath>
+      <Modified>2013-11-29T19:08:22.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\es5-shim\es5-shim.map">
-      <PackagePath>www\bower_components\es5-shim\es5-shim.map</PackagePath>
-      <Modified>2013-11-29T19:08:23.338</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\jquery\jquery.min.map">
-      <PackagePath>www\bower_components\jquery\jquery.min.map</PackagePath>
-      <Modified>2013-11-29T19:08:23.653</Modified>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\moment\readme.md">
+      <PackagePath>www\bower_components\moment\readme.md</PackagePath>
+      <Modified>2013-11-22T16:10:42.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\angular-cookies\README.md">
       <PackagePath>www\bower_components\angular-cookies\README.md</PackagePath>
@@ -440,6 +796,22 @@
       <PackagePath>www\bower_components\json3\README.md</PackagePath>
       <Modified>2013-11-29T19:08:23.118</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\styles\bootstrap.css">
+      <PackagePath>www\styles\bootstrap.css</PackagePath>
+      <Modified>2013-11-23T18:37:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\styles\main.css">
+      <PackagePath>www\styles\main.css</PackagePath>
+      <Modified>2013-11-30T09:05:08.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\es5-shim\tests\lib\jasmine.css">
+      <PackagePath>www\bower_components\es5-shim\tests\lib\jasmine.css</PackagePath>
+      <Modified>2013-11-29T19:08:24.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+      <Modified>2013-11-29T18:42:47.559</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\es5-shim\.gitignore">
       <PackagePath>www\bower_components\es5-shim\.gitignore</PackagePath>
       <Modified>2013-11-29T19:08:20.117</Modified>
@@ -447,18 +819,6 @@
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\jquery\.gitignore">
       <PackagePath>www\bower_components\jquery\.gitignore</PackagePath>
       <Modified>2013-11-29T19:08:20.268</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\es5-shim\CHANGES">
-      <PackagePath>www\bower_components\es5-shim\CHANGES</PackagePath>
-      <Modified>2013-11-29T19:08:20.162</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\es5-shim\LICENSE">
-      <PackagePath>www\bower_components\es5-shim\LICENSE</PackagePath>
-      <Modified>2013-11-29T19:08:23.829</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\json3\LICENSE">
-      <PackagePath>www\bower_components\json3\LICENSE</PackagePath>
-      <Modified>2013-11-29T19:08:22.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\config.xml">
       <PackagePath>www\config.xml</PackagePath>
@@ -482,7 +842,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-11-29T19:38:58.892</Modified>
+      <Modified>2013-11-30T08:02:16.994</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

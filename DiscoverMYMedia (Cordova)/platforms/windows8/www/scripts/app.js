@@ -11,12 +11,12 @@ angular.module('discoverMymediaApp', ['DMMGeneralRuntimeService'])
         .when('/featured', {
             templateUrl: 'views/featured.html',
             controller: 'FeaturedCtrl',
-            title: 'Programme Media'
+            title: 'Media Feeds'
         })
         .when('/media', {
             templateUrl: 'views/media.html',
             controller: 'MediaCtrl',
-            title: 'Shows'
+            title: 'Programme Media'
         })
         .otherwise({
             redirectTo: '/'

@@ -90,7 +90,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\views\featured.html">
       <PackagePath>www\views\featured.html</PackagePath>
-      <Modified>2013-11-30T23:45:05.351</Modified>
+      <Modified>2013-12-01T04:18:55.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\views\main.html">
       <PackagePath>www\views\main.html</PackagePath>
@@ -450,11 +450,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\app.js">
       <PackagePath>www\scripts\app.js</PackagePath>
-      <Modified>2013-11-30T22:27:03.516</Modified>
+      <Modified>2013-12-01T02:24:42.101</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\controllers\featured.js">
       <PackagePath>www\scripts\controllers\featured.js</PackagePath>
-      <Modified>2013-11-30T23:43:28.634</Modified>
+      <Modified>2013-12-01T04:15:42.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\controllers\main.js">
       <PackagePath>www\scripts\controllers\main.js</PackagePath>
@@ -822,7 +822,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\styles\main.css">
       <PackagePath>www\styles\main.css</PackagePath>
-      <Modified>2013-11-30T23:47:51.090</Modified>
+      <Modified>2013-12-01T04:42:37.428</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\styles\main2.css">
       <PackagePath>www\styles\main2.css</PackagePath>

@@ -11,12 +11,42 @@
         <div class="media-box" id="mediaShow1" data-ng-show="activeSubNav == 0" data-ng-animate="{hide:'animate-enter', show:'animate-leave'}">
             <div id="tvshow1" class="tvshows">
                 <span class="head-title">Love you Mr Arrogant</span>
+                <div class="episode-containers" data-ng-repeat="episode in media.children">
+                    <div class="episode-title">
+                        <h3 data-ng-bind="episode.title"></h3>
+                    </div>
+                    <div class="episode-image-holder">
+                        <img data-ng-src="{{'http://www.tonton.com.my'+episode.images[0].url}}" />
+                    </div>
+                    <div class="episode-synopsis" data-ng-bind="episode.synopsis.msa">
+                    </div>
+                </div>
             </div>
             <div id="tvshow2" class="tvshows">
                 <span class="head-title">What If</span>
+                <div class="episode-containers" data-ng-repeat="episode in media_2.children">
+                    <div class="episode-title">
+                        <h3 data-ng-bind="episode.title"></h3>
+                    </div>
+                    <div class="episode-image-holder">
+                        <img data-ng-src="{{'http://www.tonton.com.my'+episode.images[0].url}}" />
+                    </div>
+                    <div class="episode-synopsis" data-ng-bind="episode.abstract">
+                    </div>
+                </div>
             </div>
             <div id="tvshow3" class="tvshows">
                 <span class="head-title">Kampung Girl</span>
+                <div class="episode-containers" data-ng-repeat="episode in media_3.children">
+                    <div class="episode-title">
+                        <h3 data-ng-bind="episode.title"></h3>
+                    </div>
+                    <div class="episode-image-holder">
+                        <img data-ng-src="{{'http://www.tonton.com.my'+episode.images[0].url}}" />
+                    </div>
+                    <div class="episode-synopsis" data-ng-bind="episode.synopsis.msa">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="media-box" id="mediaShow2" data-ng-show="activeSubNav == 1" data-ng-animate="{hide:'animate-enter', show:'animate-leave'}">
@@ -48,10 +78,24 @@
                         </div>
                         <div class="rss-feed-head-details rss-feed-subdetails">
                             <span>Title:&nbsp;</span><span data-ng-bind="GuaRSS.title"></span><br />
-                            <span>Link:&nbsp;</span><a href="{{GuaRSS.link}}" target="_blank"><span data-ng-bind="GuaRSS.link"></span></a>
+                            <span>Link:&nbsp;</span><a href="{{GuaRSS.links}}" target="_blank"><span data-ng-bind="GuaRSS.links"></span></a>
+                        </div>
+                        <div class="special-feed-container">
+                            <div class="rss-feed-content-holder" data-ng-repeat="feeds in GuaRSS.item">
+                                <div class="feeds-title">
+                                    <h3 data-ng-bind="feeds.title"></h3>
+                                </div>
+                                <div class="feeds-details">
+                                    <span style="color: rgb(49,79,79)" class="col-xs-6 col-sm-4">Publish Date:&nbsp;</span><span data-ng-bind="feeds.pubDate" class="col-lg-8"></span><br />
+                                    <span style="color: rgb(49,79,79)" class="col-xs-6 col-sm-4">Link:&nbsp;</span><a href="{{feeds.links}}" target="_blank" class="col-lg-8"><span data-ng-bind="feeds.links"></span></a><br />
+                                    <span style="color: rgb(49,79,79)" class="col-xs-6 col-sm-4">Category:&nbsp;</span><span data-ng-bind="feeds.category" class="col-lg-8"></span><br />
+                                    <span style="color: rgb(49,79,79)" class="col-xs-6 col-sm-4">Description:&nbsp;</span><span data-ng-bind="feeds.description" class="col-lg-8"></span><br />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>

@@ -291,7 +291,7 @@ body {
 .media-box{
     background: rgba(0,0,0,0.2);
     width: 100%;
-    height: 90%;
+    height: 95%;
     text-align: center;
     margin-top: 20px;
     box-sizing: border-box;
@@ -340,10 +340,10 @@ body {
     vertical-align: middle;
 }
 .rss-feed-image-holder{
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 100px;
     box-sizing: border-box;
-    background: #000;
+    margin-right: 4px
 }
 .rss-feed-image-holder img{
     width: 100%;
@@ -353,4 +353,65 @@ body {
     font-size: 14pt;
     font-family: Cambria;
     font-weight: 700;
+}
+.episode-containers{
+    width: 100%;
+    height: 100px;
+    display: block;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    border-bottom: 2px groove #fff;
+    text-align: left;
+    cursor: pointer;
+}
+.episode-containers:hover{
+    background: rgba(255,255,255,0.2);
+}
+.episode-title{
+    display:block;
+    height: 30px;
+    width: 100%;
+    text-align: left;
+}
+.episode-image-holder{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.episode-image-holder img{
+    width: 100%;
+    height: 100%
+}
+.episode-synopsis{
+    width: 330px;
+    height: 50px;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-size: 9pt;
+}
+.rss-feed-content-holder{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-bottom: 2px groove #fff;
+    overflow: hidden;
+    cursor: pointer;
+}
+.special-feed-container{
+    display: block;
+    position: relative !important;
+    width: 100%;
+    margin-top: 8px;
+    height: 20% !important;
+    overflow: hidden !important;
+    overflow-y: auto !important;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
 }

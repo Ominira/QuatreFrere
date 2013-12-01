@@ -1,0 +1,744 @@
+@font-face {
+  font-family: Trebuchet;
+  src: url("../fonts/trebuc.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: Trebuchet;
+  src: url("../fonts/trebucbd.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: icons;
+  src: url("../fonts/icons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: icon-arrows;
+  src: url("../fonts/icon-arrows.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+[class*="icon-"] {
+  font-family: "icons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+[class*="icon-arrow-"] {
+  font-family: "icon-arrows";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-plus:before {
+  content: "\e608"; }
+
+.icon-clock:before {
+  content: "\e600"; }
+
+.icon-calendar:before {
+  content: "\e601"; }
+
+.icon-list:before {
+  content: "\e604"; }
+
+.icon-flag:before {
+  content: "\e605"; }
+
+.icon-settings:before {
+  content: "\e603"; }
+
+.icon-tv:before {
+  content: "\e602"; }
+
+.icon-arrow-left:before {
+  content: "\e600"; }
+
+.icon-arrow-right:before {
+  content: "\e603"; }
+
+.icon-arrow-up:before {
+  content: "\e602"; }
+
+.icon-arrow-down:before {
+  content: "\e601"; }
+
+* {
+  color: #4eb2b4; }
+
+textarea {
+  resize: none; }
+
+.header {
+  background-color: rgba(210, 210, 210, 0.8); }
+
+.nav-menu-dropdown {
+  background: none !important;
+  background-color: #eeeeee !important;
+  top: 52px !important; }
+
+.divider {
+  background: url("../img/backgrounds/line-white.jpg") no-repeat !important;
+  background-size: 100% !important;
+  height: 2px !important; }
+
+.container {
+  background-color: #eeeeee;
+  overflow-x: hidden;
+  overflow-y: scroll; }
+
+.app-body {
+  /*background: url('../img/demoImg/bg.png') top center no-repeat */
+  background-size: 100%;
+  background-color: black; }
+
+.app-view {
+  position: absolute;
+  top: 51px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  margin: auto;
+  box-sizing: border-box; }
+
+.demoApp-section {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px; }
+  .demoApp-section .home-container {
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translate3d(0, 0, 0); }
+
+.banner-holder, #prayer .banner-holder-main {
+  position: relative;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0px 15px;
+  width: 100%; }
+
+.banner {
+  width: 99%;
+  height: 160px;
+  background: url("../img/demoImg/main_hero.png") center center no-repeat;
+  background-size: 100%; }
+
+.menu-tiles-holder {
+  left: 0;
+  right: 0;
+  padding: 0px 15px;
+  position: relative;
+  width: 100%;
+  text-align: center; }
+
+.menu-tiles {
+  width: 140px;
+  height: 120px;
+  display: inline-block;
+  margin: 0px;
+  font-size: 80px;
+  margin: 5px 2%;
+  padding-top: 2px;
+  background-color: white;
+  position: relative; }
+  @media only screen and (min-width: 320px) {
+    .menu-tiles {
+      width: 120px; } }
+
+.menu-title {
+  width: 100%;
+  height: 10px;
+  font-size: 20px;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  border-top: 1px solid rgba(210, 210, 210, 0.3);
+  margin-bottom: 21px; }
+  @media only screen and (min-width: 320px) {
+    .menu-title {
+      font-size: 14px;
+      padding-top: 5px; } }
+
+#calendar-tile {
+  background: url("../img/demoImg/main_btn2.png") center center no-repeat;
+  background-size: 100%; }
+
+#tracker-tile {
+  background: url("../img/demoImg/main_btn3.png") center center no-repeat;
+  background-size: 100%;
+  margin-right: 4px; }
+
+#content-tile {
+  background: url("../img/demoImg/main_btn4.png") center center no-repeat;
+  background-size: 100%; }
+
+#zakat-tile {
+  background: url("../img/demoImg/main_btn5.png") center center no-repeat;
+  background-size: 100%;
+  margin-right: 4px; }
+
+#media-tile {
+  background: url("../img/demoImg/main_btn6.png") center center no-repeat;
+  background-size: 100%; }
+
+.navigation-container {
+  top: 55px !important; }
+
+.carousel-container {
+  padding-top: 30px !important; }
+
+#prayer {
+  background-color: #eeeeee; }
+  #prayer .content-holder {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 0 15px; }
+  #prayer .prayer-nav-bar {
+    width: 99%;
+    height: 30px;
+    line-height: 30px; }
+    #prayer .prayer-nav-bar ul {
+      list-style: none;
+      float: none; }
+      #prayer .prayer-nav-bar ul li {
+        display: block;
+        width: auto;
+        height: 30px;
+        float: left;
+        margin-left: 15px;
+        margin-right: 15px;
+        color: #868686;
+        font-size: 12px; }
+  #prayer .swipe-nav {
+    width: 99%;
+    height: 40px;
+    background-size: 100%;
+    margin-bottom: 8px;
+    background-color: white;
+    color: #c6c6c6;
+    line-height: 40px; }
+  #prayer .banner-holder-main {
+    top: 0 !important; }
+  #prayer .banner-holder, #prayer .banner-holder-main {
+    display: block;
+    position: relative;
+    top: 20px;
+    left: 2px;
+    width: 99%;
+    height: 110px;
+    text-align: left; }
+    #prayer .banner-holder .swipe-left, #prayer .banner-holder-main .swipe-left {
+      display: block;
+      width: 5%;
+      height: 135px;
+      float: left;
+      line-height: 135px; }
+    #prayer .banner-holder .swipe-right, #prayer .banner-holder-main .swipe-right {
+      display: block;
+      width: 5%;
+      height: 135px;
+      float: left;
+      line-height: 135px; }
+    #prayer .banner-holder .left-content, #prayer .banner-holder-main .left-content {
+      display: block;
+      float: left;
+      width: 30%;
+      height: 135px;
+      text-align: right;
+      color: #868686;
+      text-align: left; }
+      #prayer .banner-holder .left-content .top-box, #prayer .banner-holder-main .left-content .top-box {
+        display: block;
+        float: left;
+        margin-top: 15px;
+        font-size: 15px;
+        color: inherit; }
+      #prayer .banner-holder .left-content .bottom-box, #prayer .banner-holder-main .left-content .bottom-box {
+        display: block;
+        margin-top: 15px;
+        font-size: 15px;
+        position: absolute;
+        bottom: 0;
+        color: inherit; }
+    #prayer .banner-holder .right-content, #prayer .banner-holder-main .right-content {
+      display: block;
+      float: left;
+      width: 30%;
+      height: 135px;
+      text-align: left; }
+      #prayer .banner-holder .right-content .top-box, #prayer .banner-holder-main .right-content .top-box {
+        display: block;
+        margin-top: 15px;
+        font-size: 18px;
+        color: #868686;
+        float: right; }
+      #prayer .banner-holder .right-content .bottom-box, #prayer .banner-holder-main .right-content .bottom-box {
+        display: block;
+        margin-top: 15px;
+        font-size: 15px; }
+    #prayer .banner-holder .middle-content, #prayer .banner-holder-main .middle-content {
+      display: block;
+      float: left;
+      width: 30%;
+      height: 135px;
+      text-align: center;
+      color: #43b1b3;
+      -webkit-text-stroke-width: 0.5px;
+      -webkit-text-stroke-color: white; }
+      #prayer .banner-holder .middle-content .month-name, #prayer .banner-holder-main .middle-content .month-name {
+        display: block;
+        margin-top: 10px;
+        font-size: 28px;
+        font-weight: bold; }
+      #prayer .banner-holder .middle-content .month-day, #prayer .banner-holder-main .middle-content .month-day {
+        display: block;
+        margin-top: 40px;
+        font-size: 65px; }
+    #prayer .banner-holder .banner, #prayer .banner-holder-main .banner {
+      background: url("../img/demoImg/prayer_hero.png") center center no-repeat;
+      background-size: 100%; }
+  #prayer .prayer-time {
+    width: 99%;
+    height: 50px;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: white;
+    border-bottom: 3px solid #c3c3c3; }
+    #prayer .prayer-time .prayer-name {
+      display: block;
+      width: auto;
+      height: 50px;
+      line-height: 50px;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      padding-left: 10px;
+      font-size: 25px;
+      color: #868686; }
+    #prayer .prayer-time .prayer-name-time {
+      display: block;
+      width: auto;
+      height: 50px;
+      line-height: 50px;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      padding-right: 10px;
+      font-size: 25px;
+      color: #868686; }
+  #prayer .notification {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    background: url("../img/demoImg/sound.png") no-repeat center center;
+    background-size: 100%; }
+    #prayer .notification.off {
+      background: url("../img/demoImg/nosound.png") no-repeat center center;
+      background-size: 100%; }
+
+#calendar .calendar-events-header {
+  width: 99%;
+  height: 50px;
+  /*background: url('../img/demoImg/top.png') no-repeat center center */
+  background-size: 100%;
+  margin-bottom: 10px;
+  background-color: whitesmoke;
+  color: grey;
+  font-size: 11pt;
+  border-bottom: rgba(210, 210, 210, 0.7) solid 2px; }
+#calendar .content-holder {
+  position: relative;
+  top: 30px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0 15px;
+  text-align: center; }
+  @media only screen and (min-width: 320px) and (min-height: 568px) {
+    #calendar .content-holder {
+      height: 480px; } }
+#calendar .calendar-events {
+  height: 50px;
+  color: grey;
+  background-color: whitesmoke;
+  border-bottom: rgba(210, 210, 210, 0.7) solid 2px;
+  margin-bottom: 3px; }
+#calendar .calendar-events-footer {
+  position: relative;
+  right: 0;
+  left: 0;
+  width: 98%;
+  height: 80px;
+  background: url("../img/demoImg/info.png") no-repeat left center;
+  background-size: 100%; }
+#calendar .calendar-events-holder {
+  margin-bottom: 35px;
+  min-height: 60%; }
+#calendar .inline-content {
+  display: inline-block;
+  vertical-align: middle;
+  width: 31%;
+  height: 100%;
+  padding-top: 5px;
+  line-height: 100%; }
+#calendar .space-out {
+  margin: 0 15px;
+  width: 15%;
+  border-right: #d2d2d2 solid 1px;
+  border-left: #d2d2d2 solid 1px; }
+#calendar .lean-left {
+  text-align: left; }
+#calendar .lean-right {
+  text-align: right; }
+#calendar .lean-center {
+  text-align: center;
+  border-right: #d2d2d2 solid 1px;
+  border-left: #d2d2d2 solid 1px; }
+
+#converter {
+  position: relative;
+  top: 25px;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transform: translate3d(0, 0, 0); }
+  #converter .banner {
+    /*background: url('../img/demoImg/loading.png') center center no-repeat */
+    background: none;
+    background-color: whitesmoke;
+    background-size: 100%;
+    color: seagreen;
+    font-size: 14pt;
+    padding: 20px 0;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 100% !important;
+    border-bottom: rgba(210, 210, 210, 0.7) solid 2px; }
+  #converter .page-label {
+    position: relative;
+    text-align: center;
+    padding: 0px 15px;
+    height: 50px;
+    margin-bottom: 4px;
+    color: seagreen;
+    /*background: url('../img/demoImg/label.png') center center no-repeat */
+    background-size: 100%;
+    background-color: whitesmoke;
+    border-bottom: rgba(210, 210, 210, 0.7) solid 2px; }
+  #converter .date-counter {
+    width: 99%;
+    height: 190px;
+    /*background: url('../img/demoImg/scroll.png') center center no-repeat */
+    background-size: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    border-bottom: rgba(210, 210, 210, 0.7) solid 2px; }
+  #converter .content-holder {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 0 15px;
+    margin-bottom: 5px; }
+  #converter .screen-base {
+    background: url("../img/demoImg/info2.png") center center no-repeat;
+    background-size: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 70px; }
+  #converter input::-webkit-outer-spin-button,
+  #converter input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+  #converter .date-picker {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    height: 99%;
+    margin: 5px 2px;
+    box-sizing: border-box; }
+  #converter .incrementer {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 5px;
+    background: url("../img/demoImg/open.png") no-repeat;
+    background-position: 50% 50%;
+    background-color: black; }
+  #converter .decrementer {
+    height: 40px;
+    width: 100%;
+    background: url("../img/demoImg/close.png") no-repeat;
+    background-position: 50% 50%;
+    background-color: black; }
+  #converter .date-value {
+    height: 55px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white; }
+  #converter .date-picker-label {
+    color: seagreen; }
+  #converter .date-types {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    height: 10px; }
+  #converter .date-toggler {
+    width: 20%;
+    height: 40px;
+    /*background-color: #000 */
+    background: url("../img/demoImg/media_icon_left.png") no-repeat, url("../img/demoImg/media_icon_right.png") no-repeat;
+    background-position: 10% 50%, 90% 50%;
+    margin-top: 5px;
+    border-right: black solid 1px;
+    border-left: black solid 1px; }
+  #converter .inline-date-data {
+    display: inline-block;
+    vertical-align: middle; }
+  #converter .space-out {
+    width: 20%; }
+
+#media .media-content {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  overflow-y: auto; }
+#media .showMe {
+  display: block !important; }
+
+#tazbeeh .session-count > h4 {
+  margin: 3% 0 !important; }
+#tazbeeh .content-holder {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 20px;
+  background: none;
+  overflow-y: auto !important;
+  text-align: center; }
+#tazbeeh .prayer-banner {
+  display: block;
+  width: 95%;
+  margin: auto;
+  height: 230px;
+  background: whitesmoke;
+  border-bottom: 4px inset rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  box-sizing: border-box; }
+#tazbeeh .prayer-banner-title {
+  text-align: center; }
+#tazbeeh .big-number {
+  margin-top: 10px;
+  font-size: 150pt;
+  height: 150px;
+  box-sizing: border-box; }
+  #tazbeeh .big-number span {
+    color: grey;
+    line-height: 150px !important; }
+#tazbeeh .lower-banner {
+  display: block;
+  width: 95%;
+  height: 125px;
+  margin: auto;
+  background: transparent;
+  margin-top: 10px;
+  box-sizing: border-box; }
+#tazbeeh .inline-element {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box; }
+#tazbeeh .count-box {
+  width: 59%;
+  height: 100%;
+  background-color: whitesmoke;
+  margin-right: 4px;
+  border-bottom: 4px outset rgba(0, 0, 0, 0.1);
+  text-align: center; }
+  #tazbeeh .count-box .counts {
+    color: grey;
+    font-size: 25pt; }
+#tazbeeh .tap-button, #tazbeeh .tap-plus-button {
+  width: 38%;
+  height: 100%;
+  background-color: #4eb2b4;
+  color: white;
+  border-radius: 5px;
+  border-bottom: 4px outset rgba(0, 0, 0, 0.1); }
+#tazbeeh .tap-plus-button {
+  font-size: 80px;
+  padding: 22px 5%; }
+#tazbeeh .refresh-buttton {
+  margin: 5px auto 0;
+  height: 43px;
+  padding: 10px 0px;
+  width: 80%;
+  text-align: center;
+  color: whitesmoke;
+  display: block; }
+
+/* variables */
+#zakah-field {
+  text-align: center; }
+  #zakah-field > input {
+    width: 100% !important;
+    border-color: #4eb2b4; }
+  #zakah-field .menu {
+    width: 150px;
+    border: 1px solid #4eb2b4; }
+  #zakah-field .section {
+    padding: 0 0 0 0;
+    overflow: hidden;
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
+    -webkit-box-shadow: 0px 5px 20px 0px #c0c1c1;
+    box-shadow: 0px 5px 20px 0px #c0c1c1; }
+  #zakah-field .label {
+    color: #c5c5c5; }
+  #zakah-field .section-label {
+    font-weight: bold;
+    border-bottom: 1px solid #e6e6e6;
+    float: left;
+    display: block;
+    width: 100%; }
+  #zakah-field .base {
+    display: block;
+    position: relative; }
+
+#circle {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/qibla/crclBG.png");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+#arrow {
+  -webkit-transform: rotate(0deg);
+  margin: 10% 25%;
+  width: 50%;
+  height: 70%;
+  background-image: url("/img/qibla/circle_arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+#background {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/qibla/pattrn.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 440px; }
+
+#qaba {
+  margin: 50% 25%;
+  width: 50%;
+  height: 50%;
+  background-image: url("/img/qibla/qaaba.png");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+#sadaka .box-container {
+  width: 99%; }
+#sadaka .box-title {
+  color: #d2d2d2; }
+#sadaka .box-bottom {
+  position: absolute !important;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8) !important; }
+  #sadaka .box-bottom .box-span6 {
+    width: 48%;
+    height: 100%;
+    text-align: center;
+    border-right: rgba(210, 210, 210, 0.7) solid 1px; }
+    #sadaka .box-bottom .box-span6:first-child {
+      border-right: none; }
+#sadaka .box, #sadaka .box-bottom {
+  width: 99%;
+  box-sizing: border-box;
+  position: relative;
+  background-color: white;
+  border-bottom: rgba(210, 210, 210, 0.7) solid 2px;
+  vertical-align: middle;
+  margin: 5px 1%;
+  text-align: center; }
+  #sadaka .box .date, #sadaka .box-bottom .date {
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px 0; }
+    #sadaka .box .date:first-child, #sadaka .box-bottom .date:first-child {
+      border-left: none; }
+  #sadaka .box .date-active, #sadaka .box-bottom .date-active {
+    color: white;
+    background-color: #4eb2b4;
+    font-weight: bold; }
+  #sadaka .box .inline-box, #sadaka .box-bottom .inline-box {
+    display: inline-block;
+    height: 100%;
+    padding: 10px 1%;
+    margin: 0 1%; }
+    #sadaka .box .inline-box > input, #sadaka .box-bottom .inline-box > input {
+      height: 100%;
+      margin-bottom: 0; }
+    #sadaka .box .inline-box:first-child, #sadaka .box-bottom .inline-box:first-child {
+      border-right: rgba(210, 210, 210, 0.7) solid 1px;
+      padding-right: 2%; }
+#sadaka .expense {
+  height: 100%;
+  text-align: center; }
+#sadaka .description-box {
+  height: 50px;
+  margin: 5% auto;
+  border: 1px solid #4eb2b4; }
+#sadaka .add-btn {
+  width: 80%;
+  text-align: center;
+  color: whitesmoke;
+  display: block;
+  margin: 0 auto;
+  background-color: #4eb2b4;
+  color: white;
+  border-radius: 5px;
+  border-bottom: 4px outset rgba(0, 0, 0, 0.1);
+  padding: 5px 0; }

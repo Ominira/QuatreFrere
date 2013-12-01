@@ -8,6 +8,16 @@ angular.module('discoverMymediaApp', ['DMMGeneralRuntimeService'])
             controller: 'MainCtrl',
             title: 'Featured'
         })
+        .when('/featured', {
+            templateUrl: 'views/featured.html',
+            controller: 'FeaturedCtrl',
+            title: 'Programme Media'
+        })
+        .when('/media', {
+            templateUrl: 'views/media.html',
+            controller: 'MediaCtrl',
+            title: 'Shows'
+        })
         .otherwise({
             redirectTo: '/'
         });
@@ -20,9 +30,9 @@ angular.module('discoverMymediaApp', ['DMMGeneralRuntimeService'])
             $location.path('/' + where);
         }, 500, true);
 
-        $rootScope.backTap = _.throttle(function () {
+        $rootScope.backTap = function () {
             $window.history.back();
-        });
+        };
 
         $rootScope.isShown = false;
 

@@ -145,14 +145,21 @@
     <Content Include="www\img\backgrounds\bg-list.png" />
     <Content Include="www\img\backgrounds\bg.png" />
     <Content Include="www\img\icons\divider_color%402x.png" />
+    <Content Include="www\img\icons\footer_icon_back_2.png" />
     <Content Include="www\img\icons\topleft_handle%402x.png" />
     <Content Include="www\scripts\app.js" />
+    <Content Include="www\scripts\controllers\featured.js" />
     <Content Include="www\scripts\controllers\main.js" />
+    <Content Include="www\scripts\controllers\media.js" />
     <Content Include="www\scripts\modules\AppGRTProvider.js" />
     <Content Include="www\scripts\services\DataFactory.js" />
     <Content Include="www\styles\bootstrap.css" />
     <Content Include="www\styles\main.css" />
+    <Content Include="www\styles\main2.css" />
+    <Content Include="www\styles\main3.css" />
+    <Content Include="www\views\featured.html" />
     <Content Include="www\views\main.html" />
+    <Content Include="www\views\media.html" />
     <None Include="CordovaApp_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

@@ -188,6 +188,7 @@ www\images\yeoman.png
 www\img\backgrounds\bg.png
 www\img\backgrounds\bg-list.png
 www\img\icons\divider_color@2x.png
+www\img\icons\footer_icon_back_2.png
 www\img\icons\topleft_handle@2x.png
 www\img\logo.png
 www\img\smalllogo.png
@@ -196,9 +197,15 @@ www\img\storelogo.png
 www\index.html
 www\js\index.js
 www\scripts\app.js
+www\scripts\controllers\featured.js
 www\scripts\controllers\main.js
+www\scripts\controllers\media.js
 www\scripts\modules\AppGRTProvider.js
 www\scripts\services\DataFactory.js
 www\styles\bootstrap.css
 www\styles\main.css
+www\styles\main2.css
+www\styles\main3.css
+www\views\featured.html
 www\views\main.html
+www\views\media.html

@@ -95,16 +95,28 @@ body {
     height: 60px;
     z-index: 1000;
 }
-/*.bottom-bar{
+.bottom-bar{
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     width: 100%;
     height: 50px;
-    background: url('../img/background/menu-bg.png') no-repeat center center;
+    background: rgba(49,79,79,0.1);
     background-size: 100%;
-}*/
+}
+.back-nav{
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: url('../img/icons/footer_icon_back_2.png') no-repeat center center;
+    background-size: 100%;
+    cursor: pointer;
+}
 .menu-list-icon{
     position: absolute;
     width: 60px;
@@ -155,12 +167,14 @@ body {
 }
 .template-view{
     position: absolute;
-    top: 50px;
+    top: 60px;
+    text-align: center;
     right: 0;
     left: 0;
     bottom: 50px !important;
     overflow: hidden;
     overflow-y: auto;
+    width: 100%
 }
 .page-title{
     position: absolute;
@@ -172,7 +186,7 @@ body {
     font-size: 32pt;
     font-family:Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
 }
-.divider{
+.dividee{
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -181,4 +195,162 @@ body {
     width: 100%;
     background: url('../img/icons/divider_color@2x.png')no-repeat center center;
     background-size: 100%;
+}
+.animate-enter, .animate-leave {
+  -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s;
+  -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s;
+}
+
+.animate-enter {
+  opacity:0;
+  left:100px;
+  width:100%;
+  position:absolute;
+}
+.animate-enter.animate-enter-active {
+  left:0;
+  opacity:1;
+}
+
+.animate-leave {
+  position:absolute;
+  left:0;
+  width:100%;
+  opacity:1;
+}
+.animate-leave.animate-leave-active {
+  left:-100px;
+  opacity:0;
+ }
+.pages{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    /*background: rgba(255,0,0,0.7);*/
+}
+.content{
+    height: 100%;
+    width: 100%;
+    text-align: center !important;
+    /*background: rgba(255,200,0,0.7);*/
+    padding-top: 20px;
+}
+
+.media{
+    /*display: block;*/
+    background: #fff;
+    box-sizing: border-box;
+    width: 800px;
+    height: 730px;
+    text-align: center !important;
+    margin:auto;
+    margin-bottom: 12px !important;
+}
+
+.media-title{
+    text-align: center;
+    font-size: 19pt;
+    color: #000;
+    font-family:Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+    font-weight:700;
+    padding: 5px 0px;
+}
+.media-element-holder{
+    width: 95%;
+    height: 500px;
+    border: 5px solid rgba(0,0,0,0.2);
+    background: #000;
+    margin:auto;
+    box-sizing: border-box;
+}
+.media-element-holder img{
+    width: 100%;
+    height: 100%;
+}
+.media-reviews-holder{
+    width: 95%;
+    height: 40px;
+    margin: auto;
+}
+.media-review-count{
+    width: 100%;
+    height: 30px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    color: #000;
+    font-weight:bolder;
+}
+.media-description{
+    color: #000;
+    width: 100%;
+    height: 150px;
+    margin: auto;
+}
+.media-box{
+    background: rgba(0,0,0,0.2);
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.tvshows {
+    display: inline-block;
+    vertical-align: middle;
+    width: 32%;
+    height: 100%;
+    border-right: 2px;
+    border-right-color: #fff;
+    border-right-style: solid;
+    text-align: center;
+    overflow: hidden;
+    overflow-y: auto;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: auto;
+}
+.tvshows:last-child{
+    border-right: none !important;
+}
+.tvshows .head-title{
+    font-family:Cambria, 'Palatino Linotype', 'Book Antiqua', 'URW Palladio L', serif;
+    font-size: 14pt;
+    font-weight: 700;
+}
+.sub-navigation-container{
+    top: 110px !important;
+}
+.rss-feed-content{
+    width: 100%;
+    height: 100%;
+}
+.rss-feed-container{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding: 50px 50px;
+}
+.rss-feed-subdetails{
+    display: inline-block;
+    vertical-align: middle;
+}
+.rss-feed-image-holder{
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    background: #000;
+}
+.rss-feed-image-holder img{
+    width: 100%;
+    height: 100%;
+}
+.rss-feed-head-details{
+    font-size: 14pt;
+    font-family: Cambria;
+    font-weight: 700;
 }

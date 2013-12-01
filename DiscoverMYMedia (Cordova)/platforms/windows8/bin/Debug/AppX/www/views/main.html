@@ -1,3 +1,52 @@
-<div id="main">
- 
+<div id="main" class="pages">
+    <div class="content">
+        <div class="media">
+            <div class="media-title">
+                <span data-ng-bind="media.title"></span>
+            </div>
+            <div class="media-element-holder">
+                <img data-ng-src="{{'http://www.tonton.com.my' + media.children[0].images[0].url}}" />
+            </div>
+            <div class="media-reviews-holder">
+                <div class="media-review-count">
+                    <strong><span>Media View Count: </span><span data-ng-bind="media.mediaViewCount"></span></strong>
+                </div>
+                <div class="media-description">
+                    <span data-ng-bind="media.abstract"></span>
+                </div>
+            </div>
+        </div>
+        <div class="media">
+            <div class="media-title">
+                <span data-ng-bind="media_2.title"></span>
+            </div>
+            <div class="media-element-holder">
+                <img data-ng-src="{{'http://www.tonton.com.my' + media_2.children[0].images[0].url}}" />
+            </div>
+            <div class="media-reviews-holder">
+                <div class="media-review-count">
+                    <strong><span>Media View Count: </span><span data-ng-bind="media_2.mediaViewCount"></span></strong>
+                </div>
+                <div class="media-description">
+                    <span data-ng-bind="media_2.abstract"></span>
+                </div>
+            </div>
+        </div>
+        <div class="media">
+            <div class="media-title">
+                <span data-ng-bind="media_3.title"></span>
+            </div>
+            <div class="media-element-holder">
+                <img data-ng-src="{{'http://www.tonton.com.my' + media_3.children[0].images[0].url}}" />
+            </div>
+            <div class="media-reviews-holder">
+                <div class="media-review-count">
+                    <strong><span>Media View Count: </span><span data-ng-bind="media_3.mediaViewCount"></span></strong>
+                </div>
+                <div class="media-description">
+                    <span data-ng-bind="media_3.abstract"></span>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

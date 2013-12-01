@@ -35,6 +35,9 @@
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\img\icons\divider_color%402x.png">
       <PackagePath>www\img\icons\divider_color%402x.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\img\icons\footer_icon_back_2.png">
+      <PackagePath>www\img\icons\footer_icon_back_2.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\img\icons\topleft_handle%402x.png">
       <PackagePath>www\img\icons\topleft_handle%402x.png</PackagePath>
     </AppxPackagedFile>
@@ -62,8 +65,14 @@
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\404.html">
       <PackagePath>www\404.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\views\featured.html">
+      <PackagePath>www\views\featured.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\views\main.html">
       <PackagePath>www\views\main.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\views\media.html">
+      <PackagePath>www\views\media.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\es5-shim\tests\index.html">
       <PackagePath>www\bower_components\es5-shim\tests\index.html</PackagePath>
@@ -329,8 +338,14 @@
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\app.js">
       <PackagePath>www\scripts\app.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\controllers\featured.js">
+      <PackagePath>www\scripts\controllers\featured.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\controllers\main.js">
       <PackagePath>www\scripts\controllers\main.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\controllers\media.js">
+      <PackagePath>www\scripts\controllers\media.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\modules\AppGRTProvider.js">
       <PackagePath>www\scripts\modules\AppGRTProvider.js</PackagePath>
@@ -601,6 +616,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\styles\main.css">
       <PackagePath>www\styles\main.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\styles\main2.css">
+      <PackagePath>www\styles\main2.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\styles\main3.css">
+      <PackagePath>www\styles\main3.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\es5-shim\tests\lib\jasmine.css">
       <PackagePath>www\bower_components\es5-shim\tests\lib\jasmine.css</PackagePath>

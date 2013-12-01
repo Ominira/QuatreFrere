@@ -16,6 +16,8 @@
     <!-- build:css({.tmp,app}) styles/main.css -->
     <link rel="stylesheet" href="styles/bootstrap.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main2.css">
+   <!-- <link rel="stylesheet" href="styles/main3.css">-->
     <!-- endbuild -->
 
     <!-- WinJS references -->
@@ -25,7 +27,7 @@
 
     <script type="text/javascript" src="cordova.js"></script>
 </head>
-<body ng-app="discoverMymediaApp">
+<body data-ng-app="discoverMymediaApp">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -37,16 +39,19 @@
     <!-- Add your site or application content here -->
     <div class="container">
         <header class="top-nav-bar">
-            <div class="menu-list-icon" ng-click="toggleMenu()"></div>
-            <ul class="menu-list" ng-class="{showMenu: isShown}">
-                <li ng-click="goTo('/')">Home</li>
-                <li ng-click="goTo('')">Page2</li>
-                <li ng-click="goTo('')">Page3</li>
+            <div class="menu-list-icon" data-ng-click="toggleMenu()"></div>
+            <ul class="menu-list" data-ng-class="{showMenu: isShown}">
+                <li data-ng-click="goTo('/')">Home</li>
+                <li data-ng-click="goTo('featured')">Featured</li>
+                <li data-ng-click="goTo('media')">Media</li>
             </ul>
-            <h3 class="page-title" ng-bind="title"></h3>
-            <div class="divider"></div>
+            <h3 class="page-title" data-ng-bind="title"></h3>
+            <div class="dividee"></div>
         </header>
-        <div class="template-view" ng-view=""></div>
+        <div class="template-view" data-ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}" data-ng-view=""></div>
+        <footer class="bottom-bar">
+            <div class="back-nav" data-ng-click="backTap()"></div>
+        </footer>
     </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -75,8 +80,9 @@
     <script src="scripts/app.js"></script>
     <!-- Controllers -->
     <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/featured.js"></script>
+    <script src="scripts/controllers/media.js"></script>
     <!-- end Controllers -->
-
     <!-- Services -->
     <script src="scripts/services/DataFactory.js"></script>
     <!-- end services -->

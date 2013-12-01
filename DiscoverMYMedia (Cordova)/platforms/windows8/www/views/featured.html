@@ -1,0 +1,57 @@
+﻿<div id="main" class="pages">
+    <div class="content">
+        <nav class="navigation-container">
+            <ul data-scroller-follower="selectedMedia">
+                <li data-ng-class="{active: activeSubNav == 0}" data-ng-click="changeSubNav(0)">TV Shows</li>
+                <li data-ng-class="{active: activeSubNav == 1}" data-ng-click="changeSubNav(1)">Articles</li>
+                <li data-ng-class="{active: activeSubNav == 2}" data-ng-click="changeSubNav(2)">RSS Feed</li>
+            </ul>
+        </nav>
+
+        <div class="media-box" id="mediaShow1" data-ng-show="activeSubNav == 0" data-ng-animate="{hide:'animate-enter', show:'animate-leave'}">
+            <div id="tvshow1" class="tvshows">
+                <span class="head-title">Love you Mr Arrogant</span>
+            </div>
+            <div id="tvshow2" class="tvshows">
+                <span class="head-title">What If</span>
+            </div>
+            <div id="tvshow3" class="tvshows">
+                <span class="head-title">Kampung Girl</span>
+            </div>
+        </div>
+        <div class="media-box" id="mediaShow2" data-ng-show="activeSubNav == 1" data-ng-animate="{hide:'animate-enter', show:'animate-leave'}">
+            <h2>List Of Articles</h2>
+        </div>
+        <div class="media-box" id="mediaShow3" data-ng-show="activeSubNav == 2" data-ng-animate="{hide:'animate-enter', show:'animate-leave'}">
+            <nav class="sub-navigation-container navigation-container">
+                <ul data-scroller-follower="selectedMedia">
+                    <li data-ng-class="{active: activeNav == 0}" data-ng-click="changeNav(0)">TV3</li>
+                    <li data-ng-class="{active: activeNav == 1}" data-ng-click="changeNav(1)">NT7</li>
+                    <li data-ng-class="{active: activeNav == 2}" data-ng-click="changeNav(2)">8TV</li>
+                    <li data-ng-class="{active: activeNav == 3}" data-ng-click="changeNav(3)">TV9</li>
+                    <li data-ng-class="{active: activeNav == 4}" data-ng-click="changeNav(4)">GUA</li>
+                </ul>
+            </nav>
+            <div id="tv3" class="rss-feed-container" data-ng-show="activeNav == 0">
+            </div>
+            <div id="nt7" class="rss-feed-container" data-ng-show="activeNav == 1">
+            </div>
+            <div id="8tv" class="rss-feed-container" data-ng-show="activeNav == 2">
+            </div>
+            <div id="tv9" class="rss-feed-container" data-ng-show="activeNav == 3">
+            </div>
+            <div id="gua" class="rss-feed-container" data-ng-show="activeNav == 4">
+                <div class="rss-feed-content">
+                    <div class="rss-feed-header">
+                        <div class="rss-feed-image-holder rss-feed-subdetails">
+                            <img data-ng-src="{{GuaRSS.image.url}}" />
+                        </div>
+                        <div class="rss-feed-head-details rss-feed-subdetails">
+                            <span>Title:&nbsp;</span><span data-ng-bind="GuaRSS.title"></span><br />
+                            <span>Link:&nbsp;</span><a href="{{GuaRSS.link}}" target="_blank"><span data-ng-bind="GuaRSS.link"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

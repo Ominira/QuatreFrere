@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-11-30T08:02:17.898</Modified>
+      <Modified>2013-11-30T16:34:16.935</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -48,6 +48,10 @@
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\img\icons\divider_color%402x.png">
       <PackagePath>www\img\icons\divider_color%402x.png</PackagePath>
       <Modified>2013-07-23T03:05:35.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\img\icons\footer_icon_back_2.png">
+      <PackagePath>www\img\icons\footer_icon_back_2.png</PackagePath>
+      <Modified>2013-08-21T11:52:39.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\img\icons\topleft_handle%402x.png">
       <PackagePath>www\img\icons\topleft_handle%402x.png</PackagePath>
@@ -84,9 +88,17 @@
       <PackagePath>www\404.html</PackagePath>
       <Modified>2013-11-23T18:37:17.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\views\featured.html">
+      <PackagePath>www\views\featured.html</PackagePath>
+      <Modified>2013-11-30T23:45:05.351</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\views\main.html">
       <PackagePath>www\views\main.html</PackagePath>
-      <Modified>2013-11-30T06:19:56.316</Modified>
+      <Modified>2013-11-30T16:13:52.590</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\views\media.html">
+      <PackagePath>www\views\media.html</PackagePath>
+      <Modified>2013-11-30T11:23:58.878</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\es5-shim\tests\index.html">
       <PackagePath>www\bower_components\es5-shim\tests\index.html</PackagePath>
@@ -98,7 +110,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\index.html">
       <PackagePath>www\index.html</PackagePath>
-      <Modified>2013-11-30T07:57:03.094</Modified>
+      <Modified>2013-11-30T16:36:40.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\angular-unstable\angular.min.js.map">
       <PackagePath>www\bower_components\angular-unstable\angular.min.js.map</PackagePath>
@@ -438,19 +450,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\app.js">
       <PackagePath>www\scripts\app.js</PackagePath>
-      <Modified>2013-11-30T08:04:33.431</Modified>
+      <Modified>2013-11-30T22:27:03.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\controllers\featured.js">
+      <PackagePath>www\scripts\controllers\featured.js</PackagePath>
+      <Modified>2013-11-30T23:43:28.634</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\controllers\main.js">
       <PackagePath>www\scripts\controllers\main.js</PackagePath>
-      <Modified>2013-11-29T19:05:35.998</Modified>
+      <Modified>2013-11-30T16:14:44.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\controllers\media.js">
+      <PackagePath>www\scripts\controllers\media.js</PackagePath>
+      <Modified>2013-11-30T11:31:12.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\modules\AppGRTProvider.js">
       <PackagePath>www\scripts\modules\AppGRTProvider.js</PackagePath>
-      <Modified>2013-11-30T08:43:57.250</Modified>
+      <Modified>2013-11-30T14:07:26.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\scripts\services\DataFactory.js">
       <PackagePath>www\scripts\services\DataFactory.js</PackagePath>
-      <Modified>2013-11-30T03:38:26.479</Modified>
+      <Modified>2013-11-30T15:20:50.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\angular-cookies\angular-cookies.js">
       <PackagePath>www\bower_components\angular-cookies\angular-cookies.js</PackagePath>
@@ -802,7 +822,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\styles\main.css">
       <PackagePath>www\styles\main.css</PackagePath>
-      <Modified>2013-11-30T09:05:08.627</Modified>
+      <Modified>2013-11-30T23:47:51.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\styles\main2.css">
+      <PackagePath>www\styles\main2.css</PackagePath>
+      <Modified>2013-11-30T16:50:12.189</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\styles\main3.css">
+      <PackagePath>www\styles\main3.css</PackagePath>
+      <Modified>2013-10-27T10:41:59.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\www\bower_components\es5-shim\tests\lib\jasmine.css">
       <PackagePath>www\bower_components\es5-shim\tests\lib\jasmine.css</PackagePath>
@@ -842,7 +870,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\development\QuatreFrere\DiscoverMYMedia %28Cordova%29\platforms\windows8\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-11-30T08:02:16.994</Modified>
+      <Modified>2013-11-30T16:34:16.777</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
